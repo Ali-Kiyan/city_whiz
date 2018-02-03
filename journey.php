@@ -2,7 +2,7 @@
 <div class="animated fadeInLeft alert alert-success">Hey Alex!</div>
 <div class="animated fadeInUp alert alert-info center">Please select your journey!</div>
 
-<div class="col-xs-4 col-xs-offset-1 smfont">
+<div class="col-sm-4 col-sm-offset-1 col-xs-12 smfont">
   <div class="form-group">
     <label for="sel1">Source Station: </label>
     <select class="form-control" id="sel1">
@@ -13,7 +13,7 @@
     </select>
   </div>
 </div>
-<div class="col-xs-4 col-xs-offset-2 smfont">
+<div class="col-sm-4 col-sm-offset-2 col-xs-12 smfont">
   <div class="form-group">
     <label for="sel1">Destination Station: </label>
     <select class="form-control" id="sel1">
@@ -23,6 +23,8 @@
       <option>4</option>
     </select>
   </div>
+    <a type="submit" href="./journey.php" class="btn btn-success">Submit
+    </a>
 </div>
 
 
