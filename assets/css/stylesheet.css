@@ -8,7 +8,7 @@ html{
 body{
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
-  background-color: #343135;
+  background-color: whitesmoke;
   color: whitesmoke;
 
 }
@@ -33,4 +33,14 @@ font-size: 1rem;
 .right{
   position: absolute;
   right: 5%;
+}
+.car{
+  width: 50%;
+
+}
+.black{
+  color: #383838;
+}
+.smimg{
+  width: 5%;
 }

@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function (req, res) {
-   fs.readFile( "python/data.json", 'utf8', function (err, data) {
+   fs.readFile( "../python/data.json", 'utf8', function (err, data) {
        //console.log(data);
        res.end(data);
    });
