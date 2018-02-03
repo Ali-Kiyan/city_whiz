@@ -1,14 +1,13 @@
 <?php require_once "./template/header.html" ?>
 <div class="row">
   <div class="container" id="login">
-    <img src="./assets/images/train.png" class="image-circle col-sm-6" alt="">
-    <form class="form-horizontal col-sm-6" role="form" method="POST" action="">
-       <br>
+    <img src="./assets/images/train.png" class="col-md-6 col-xs-12" alt="">
+<div class="col-xs-12 col-md-6">
           <div class="form-group">
-              <label for="email" class="col-sm-4 col-xs-4 control-label">User Name</label>
+              <label for="email" class="col-xs-10 control-label">User Name</label>
 
-              <div class="col-sm-4 col-xs-8">
-                  <input id="email" class="form-control" name="Username" value="">
+              <div class="">
+                  <input id="email" class="form-control col-xs-6" name="Username" value="">
                       <span class="help-block">
                           <strong></strong>
                       </span>
@@ -17,27 +16,17 @@
           </div>
 
           <div class="form-group">
-              <label for="password" class="col-sm-4 col-xs-4 control-label">Password</label>
+              <label for="password" class="col-xs-10 control-label">Password</label>
 
-              <div class=" col-sm-4 col-xs-8">
                   <input id="password" type="password" class="form-control" name="Password">
-                      <span class="help-block">
-                          <strong></strong>
-                      </span>
 
-              </div>
           </div>
+<br>
+                  <a type="submit" name="Lsubmit" class="btn btn-info Brown">Login
+                  </a>
+                  <a href="./register.phtml" class="btn btn-warning Brown">Sign Up!</a>
 
-
-          <div class="form-group">
-              <div class="col-md-6 col-md-offset-4">
-                  <button type="submit" name="Lsubmit" class="btn btn-info Brown">Login
-                  </button>
-                  <a href="./database.php" class="btn btn-warning Brown">Sign Up!</a>
-              </div>
-          </div>
-      </form>
-
+</div>
   </div>
 </div>
 
