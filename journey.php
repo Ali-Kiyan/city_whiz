@@ -23,7 +23,7 @@
       <option>4</option>
     </select>
   </div>
-    <a type="submit" href="./journey.php" class="btn btn-success">Submit
+    <a type="submit" href="./rcmn_car.php" class="btn btn-success right">Submit
     </a>
 </div>
 
