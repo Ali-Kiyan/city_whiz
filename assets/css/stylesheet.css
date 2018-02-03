@@ -15,10 +15,18 @@ body{
 .thumbnail{
 }
 
+.center{
+  text-align: center;
+  font-size: 1.6rem;
+}
+
 .para{
   font-size: 1.6rem;
 }
 #login{
 margin-top: 17%;
 font-size: 1rem;
+}
+.smfont{
+    font-size: 1.6rem;
 }
