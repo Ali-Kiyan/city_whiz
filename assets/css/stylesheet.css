@@ -8,8 +8,8 @@ html{
 body{
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
-  background-color: whitesmoke;
-  color: whitesmoke;
+  background-color: white;
+  color: #383838;
 
 }
 .thumbnail{
@@ -30,17 +30,13 @@ font-size: 1rem;
 .smfont{
     font-size: 1.6rem;
 }
+.xsfont{
+      font-size: 1.4rem;
+}
 .right{
   position: absolute;
   right: 5%;
 }
-.car{
-  width: 50%;
-
-}
 .black{
   color: #383838;
-}
-.smimg{
-  width: 5%;
 }
