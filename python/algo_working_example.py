@@ -22,7 +22,7 @@ def gen():
 		data = {
 			'stations':{
 				'1':{
-				   'station' : 'oxford circus',
+				   'station' : 'Manchester Piccadilly',
 				   'lines' : {
 				   		'circle':{
 							'section':[x[0],1-x[0]],
@@ -32,7 +32,7 @@ def gen():
 				   'recomendation':y[1],
 			   },
 			   '2':{
-		   		   'station' : 'bond street',
+		   		   'station' : 'Manchester Oxford Road',
 		   		   'lines' : {
 		   		   		'circle':{
 							'section':[x[2],1-x[2]],
@@ -42,7 +42,7 @@ def gen():
 				  'recomendation':y[3],
 				},
 				'3':{
- 		   		   'station' : 'marble arch',
+ 		   		   'station' : 'Manchester Victoria',
  		   		   'lines' : {
  		   		   		'circle':{
  							'section':[x[4],1-x[4]],
