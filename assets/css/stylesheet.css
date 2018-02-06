@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
 html{
 
 }
@@ -10,7 +11,110 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: white;
   color: #383838;
-
+  overflow-x: hidden;
+  overflow-style: none;
+}
+.logocon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #e61919;
+  animation: color 30s linear infinite;
+  user-select: none;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+.logo {
+  font: 300 100px Mountains of Christmas;
+  color: #fff;
+  cursor: default;
+}
+.hint {
+  position: fixed;
+  z-index: 4;
+  bottom: 10vh;
+  width: 100vw;
+  text-align: center;
+  color: rgba(255,255,255,0.6);
+  font: 300 30px Comfortaa;
+}
+.content {
+  padding: 30px;
+  position: relative;
+  top: 20vh;
+  height: 200vh;
+  font: 16px Ubuntu;
+}
+@-moz-keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #7f19e6;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #80e619;
+  }
+  100% {
+    background: #e61919;
+  }
+}
+@-webkit-keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #7f19e6;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #80e619;
+  }
+  100% {
+    background: #e61919;
+  }
+}
+@-o-keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #7f19e6;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #80e619;
+  }
+  100% {
+    background: #e61919;
+  }
+}
+@keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #7f19e6;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #80e619;
+  }
+  100% {
+    background: #e61919;
+  }
 }
 .thumbnail{
 }
@@ -39,4 +143,18 @@ font-size: 1rem;
 }
 .black{
   color: #383838;
+}
+#nav{
+  font-size: 1.3rem;
+}
+.lg{
+  background-color: #808080 !important;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.back{
+  position: absolute;
+  top:0;
+  opacity: 0.2;
+
 }
